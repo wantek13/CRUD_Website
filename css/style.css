@@ -1,0 +1,222 @@
+body
+{
+  background: url('https://images.pexels.com/photos/1722072/pexels-photo-1722072.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+[class*="col-"]
+{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+/* carousel */
+.carousel-inner
+{
+  height: 100vh;
+}
+
+.carousel-caption
+{
+  width: 100%;
+  height: 100%;
+  left:0 !important;
+}
+
+.carousel-caption h1 {
+  text-align:center;
+  margin-top: 40vh;
+}
+.carousel-caption p {
+  
+}
+/* carousel */
+
+
+.col-lg-3
+{
+  margin:0px;
+  margin-top: 10vh;
+  padding:0px;
+}
+
+#empty
+{
+  margin-top: 10vh;
+}
+
+.card
+{
+  margin: 10px;
+}
+
+nav
+{
+  font-family: 'Bungee Inline', cursive;
+}
+
+.row
+{
+  margin: 0px;
+}
+
+h1
+{
+  font-size: 70px;
+  font-family: 'Bungee Inline', cursive;
+}
+
+h2
+{
+  font-family: 'Black Ops One', cursive;
+}
+
+p
+{
+  font-family: 'Fjalla One', sans-serif;
+  font-style: bold;
+  font-size: 24px;
+  font-stretch: ultra-condensed;
+  text-transform: uppercase;
+}
+
+video
+{
+  width: 80%;
+  height: auto;
+}
+
+form
+{
+  padding: 5px;
+}
+
+/* formulaire du login */
+/* formulaire du login */
+/* formulaire du login */
+
+#login-card{
+  height: 370px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: rgba(0,0,0,0.5) !important;
+  }
+  
+  .social_icon span{
+  font-size: 60px;
+  margin-left: 10px;
+  color: #28A745;
+  }
+  
+  .social_icon span:hover{
+  color: white;
+  cursor: pointer;
+  }
+  
+  #login-card-header h3{
+  color: white;
+  }
+  
+  .social_icon{
+  position: absolute;
+  right: 20px;
+  top: -45px;
+  }
+  
+  .input-group-prepend span{
+  width: 50px;
+  background-color: #28A745;
+  color: black;
+  border:0 !important;
+  }
+  
+  input:focus{
+  outline: 0 0 0 0  !important;
+  box-shadow: 0 0 0 0 !important;
+  
+  }
+  
+  .remember{
+  color: white;
+  }
+  
+  .remember input
+  {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+  }
+  
+  .login_btn{
+  color: black;
+  background-color: #28A745;
+  width: 100px;
+  }
+  
+  .login_btn:hover{
+  color: black;
+  background-color: white;
+  }
+  
+  .links{
+  color: white;
+  }
+  
+  .links a{
+  margin-left: 4px;
+  }
+
+/* form register */
+/* form register */
+/* form register */
+#register-card
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.divider-text span {
+  padding: 7px;
+  font-size: 12px;
+  position: relative;   
+  z-index: 2;
+}
+.divider-text:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  top: 55%;
+  left: 0;
+  z-index: 1;
+}
+
+.card-title, .text-center
+{
+  color: black;
+}
+
+.btn-facebook {
+  background-color: #405D9D;
+  color: #fff;
+}
+.btn-twitter {
+  background-color: #42AEEC;
+  color: #fff;
+}
